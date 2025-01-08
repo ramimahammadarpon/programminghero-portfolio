@@ -135,3 +135,45 @@ header .banner-img .image {
     height: 196px;
     font-size: 16px;
 }
+.resume {
+    margin: 0 275px 0 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resume .edu-and-exp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 71px;
+    margin-top: 113px;
+}
+.resume .resume-title {
+    text-align: center;
+}
+.resume .degree-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume .institution-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume .industry-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume .job-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.degree-name, .exp-name {
+    height: 175px;
+    width: 511px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.cv-button {
+    margin-top: 100px;
+}
