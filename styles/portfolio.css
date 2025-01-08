@@ -40,6 +40,9 @@ nav li a {
 .text-primary {
     color: #FD6E0A;
 }
+.secondary-bg {
+    background-color: #FFF8F3;
+}
 .title-size {
     font-size: 35px;
     font-weight: bold;
@@ -52,6 +55,10 @@ nav li a {
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
+}
+main section {
+    margin: 130px;
+    margin-bottom: 130px;
 }
 .banner {
     display: flex;
@@ -79,7 +86,7 @@ header .banner-img .image {
 .about {
     max-height: 288px;
     max-width: 827px;
-    margin: 130px auto;
+    margin: 0 auto;
     padding: 131px 157px;
     text-align: center;
 }
@@ -97,4 +104,35 @@ header .banner-img .image {
 .about .item-description {
     font-size: 20px;
     font-weight: bold;
+}
+.exp-and-skills .section-title {
+    text-align: center;
+}
+.exp-and-skills .section-description {
+    font-size: 18px;
+    width: 909px;
+    text-align: center;
+    margin: 0 auto;
+}
+.exp-and-skills .skills-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.exp-and-skills .skills-container .skills {
+    width: 267px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skills-container .skill-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.skills-container .skill-description {
+    width: 201px;
+    height: 196px;
+    font-size: 16px;
 }
