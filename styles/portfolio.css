@@ -65,10 +65,7 @@ nav li a {
     border-radius: 5px;
     margin-left: 20px;
 }
-main section {
-    margin: 130px;
-    margin-bottom: 130px;
-}
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -91,6 +88,7 @@ header .banner-text .description {
 }
 header .banner-img .image {
     width: 584px;
+    margin-bottom: 0;
 }
 .about {
     max-height: 288px;
@@ -145,7 +143,7 @@ header .banner-img .image {
     font-size: 16px;
 }
 .resume {
-    margin: 0 275px 0 230px;
+    margin: 100px 275px 100px 230px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,4 +183,42 @@ header .banner-img .image {
 }
 .cv-button {
     margin-top: 100px;
+}
+.footer {
+    padding: 130px 230px 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer label {
+    display: block;
+}
+.contact-info {
+    width: 50%;
+}
+.msg-form {
+    width: 50%;
+}
+.msg-form input {
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    border: none;
+}
+.msg-form #msg {
+    width: 461px;
+    height: 180px;
+    border: none;
+}
+.contact-description {
+    font-size: 16px;
+}
+.contact-info .contact-icons {
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.contact-icons i {
+    color: #FD6E0A;
+    width: 24px;
 }
